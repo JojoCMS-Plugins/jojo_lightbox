@@ -1,0 +1,7 @@
+This modification of the original lightbox script is subject to the conditions
+of the original license, the Creative Commons Attribution 2.5 License -
+http://creativecommons.org/licenses/by/2.5/
+
+Additionally, if you like this script, consider placing a link to the
+author (http://www.huddletogether.com) somewhere on your site, I'm sure
+it will be appreciated.

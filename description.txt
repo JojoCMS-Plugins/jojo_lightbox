@@ -1,0 +1,1 @@
+A jojo implementation of a popular inline popup system, used for images.
