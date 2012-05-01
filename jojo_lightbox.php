@@ -34,6 +34,7 @@ class Jojo_Plugin_jojo_lightbox extends Jojo_Plugin
     }
 
     public static function loadjs() {
+        $foot = '';
         if (Jojo::getOption('lightbox_head', 'head')=='foot') {
             switch (Jojo::getOption('lightbox_version', 'huddletogether')) {
                 case 'huddletogether':
@@ -51,7 +52,7 @@ $(document).ready(function(){
             case 'huddletogether':
                 $foot .= '  initLightbox()'."\n";
             case 'jqlightbox':
-                $foot .= '  <script type="text/javascript" src="'._SITEURL.'/js/jquery.lightbox-0.4.min.js"></script>'."\n";
+                $foot .= ' '."\n";
             case 'ryrych':
                 $foot .= '  $(\'a[rel="lightbox"]\').rlightbox();'."\n";
         }
