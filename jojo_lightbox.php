@@ -50,11 +50,14 @@ $(document).ready(function(){
 ';
         switch (Jojo::getOption('lightbox_version', 'huddletogether')) {
             case 'huddletogether':
-                $foot .= '  initLightbox()'."\n";
+                $foot .= '  initLightbox();'."\n";
+                break;
             case 'jqlightbox':
                 $foot .= ' '."\n";
+                break;
             case 'ryrych':
                 $foot .= '  $(\'a[rel="lightbox"]\').rlightbox();'."\n";
+                break;
         }
 
         $foot .= '});
